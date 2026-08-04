@@ -1,7 +1,7 @@
 site_name: Sprinter's Homelab (WIP)
-site_url: https://www.sprinter.work/homelab
 site_author: Sprinter05
 repo_url: https://github.com/Sprinter05/homelab
+repo_name: Sprinter05/homelab
 copyright: Copyright &copy; 2026 Sprinter05
 
 markdown_extensions:
@@ -35,6 +35,8 @@ theme:
   name: material
   language: en
   favicon: assets/icon.png
+  icon:
+    repo: fontawesome/brands/github
 
   features:
     - header.autohide
