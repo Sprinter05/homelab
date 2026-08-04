@@ -27,7 +27,7 @@ plugins:
 
 theme:
   name: material
-  language: es
+  language: en
 
   features:
     - header.autohide
@@ -45,14 +45,14 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default # Light mode
-      primary: deep purple
+      primary: red
       accent: indigo
       toggle:
         icon: material/weather-night
         name: Cambiar a modo oscuro
     - media: "(prefers-color-scheme: dark)"
       scheme: slate # Dark mode
-      primary: deep purple
+      primary: red
       accent: indigo
       toggle:
         icon: material/weather-sunny
