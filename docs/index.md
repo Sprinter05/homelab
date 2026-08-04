@@ -3,7 +3,7 @@ My personal homelab consists of 2 systems, one of them located in my house and t
 
 ## Systems
 ### Local system
-The server I daily drive in my house is a Rockchip SoC, more specifically an [Orange PI 5](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5.html) 16GB model. I managed to obtain this second-hand from a friend and I really like its low energy consumption and non-existant noise (more on that later). 
+The server I daily drive in my house is a Rockchip SoC, more specifically an **Orange PI 5B** 16GB model. I managed to obtain this second-hand from a friend and I really like its low energy consumption and non-existant noise (more on that later). 
 
 !!! warning
     This system is not exposed to the internet.
@@ -18,3 +18,6 @@ I own 2 domains that I use for my selfhosted setup:
 - `sprintervps.party`
 
 By personal choice I will not disclose information about my domain provider or the prices I pay.
+
+## Software
+Both of my systems run a Linux based distribution and all services run under [Docker Engine](https://docs.docker.com/engine/) (there are very few exceptions).

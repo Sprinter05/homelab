@@ -60,3 +60,6 @@ theme:
 
 nav:
   - Home: index.md
+  - Systems:
+      - OrangePI: systems/orangepi.md
+      - VPS: systems/vps.md
