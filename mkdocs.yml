@@ -1,4 +1,62 @@
-site_name: Sprinter's homelab
-site_url: TBD
+site_name: Sprinter's Homelab
+site_author: Sprinter05
+copyright: Copyright &copy; 2026 Sprinter05
+
+markdown_extensions:
+  - def_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - meta
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+  - autorefs
+  - glightbox
+
 theme:
   name: material
+  language: es
+
+  features:
+    - header.autohide
+    - navigation.tabs
+    - navigation.tracking
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - toc.follow
+    - search.suggest
+    - search.highlight
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default # Light mode
+      primary: deep purple
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate # Dark mode
+      primary: deep purple
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+
+nav:
+  - Home: index.md
