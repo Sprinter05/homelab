@@ -1,5 +1,5 @@
 # Introduction
-This documentation (mostly written in a kind of *blog* style) is a rough sketch of how my homelab works, explaining most of the different stages it went through with some of my failed attempts as well. It is by **no means** an extensive guide on how to achieve my setup, rather, it serves as a collection of ideas (and also mistakes to avoid) for anyone looking to go down the homelab route. I hope you enjoy it!
+This documentation (mostly written in a kind of *blog* style) is a rough sketch of how my homelab works, explaining most of the different stages it went through with some of my failed attempts as well. It is by **no means** an extensive guide on how to achieve my setup, rather, it serves as a blog with some troubleshooting included (and also mistakes to avoid) of my experience going down the homelab route. I hope you enjoy it!
 
 ## Summary
 My personal homelab consists of 2 systems, one of them located in my house and the other located on a remote VPS. Both are important and serve different purposes that will be explained throughout this documentation. 
