@@ -92,6 +92,10 @@ By default, Armbian stores all logs in a `zram` partition, and since everything 
 {++#++}systemctl is-active --quiet logrotate.timer && exit 0
 {++#++}/usr/lib/armbian/armbian-ramlog write >/dev/null 2>&1
 ```
+
+!!! info "Actually..."
+    This specific one is not really a problem since we are going to disable the timer so the cron job would just exit but it's a caution measure regardless.
+
 ```title="/etc/systemd/journald.conf"
 {++#++}SystemMaxUse=50M
 ```
