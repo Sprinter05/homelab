@@ -6,13 +6,13 @@ My personal homelab consists of 2 systems, one of them located in my house and t
 
 ## Systems
 ### Local system
-The server I daily drive in my house is a Rockchip SoC, more specifically an **Orange PI 5B** 16GB model. I managed to obtain this second-hand from a friend and I really like its low energy consumption and non-existant noise (more on that later). 
+The server I daily drive in my house is a Rockchip SoC, more specifically an Orange PI 5B 16GB model. I managed to obtain this second-hand from a friend and I really like its low energy consumption and non-existant noise (more on that later). 
 
 !!! warning
     This system is not exposed to the internet.
 
 ### Remote system
-My remote system consists of a **VPS** I pay for every month. It's a simple QEMU virtual machine consisting of 6 cores and 12GB of memory. By personal choice I will not disclose information about the prices I pay or about my provider. 
+My remote system consists of a VPS I pay for every month. It's a simple QEMU virtual machine consisting of 6 cores and 12GB of memory. By personal choice I will not disclose information about the prices I pay or about my provider. 
 
 ## Domains
 I own 2 domains that I use for my selfhosted setup:
