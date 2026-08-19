@@ -275,7 +275,7 @@ openssl x509 -req -in domain.csr -CA CA.crt -CAkey CA.key -CAcreateserial -out d
     Same as before, we cannot create a certificate that does not expire, so this one is set to expire in around 3 years.
 
 
-### Setting up necessary directories
+### Setting up the necessary directories
 Since this server is only really managed by myself, I could just leave everything under the `/home` directory, but I decided that isn't the cleanest option and so after a bit of thinking I ended up with **2 main directories** from where everything branches, `/srv/selfhosted` (which stores all data related to containers) and `/opt/stuff` (which stores important data that different services use).
 
 ``` mermaid
