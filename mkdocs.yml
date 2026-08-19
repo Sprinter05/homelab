@@ -77,3 +77,32 @@ nav:
   - Systems:
       - OrangePI: systems/orangepi.md
       - VPS: systems/vps.md
+  - Services:
+      - Authelia: services/authelia.md
+      - Traefik: services/traefik.md
+      - PiHole: services/pihole.md
+      - Homepage: services/homepage.md
+      - Dozzle: services/dozzle.md
+      - Wireguard Easy: services/wg-easy.md
+      - Dashdot: services/dashdot.md
+      - Glances: services/glances.md
+      - Grafana: services/grafana.md
+      - PeaNUT: services/peanut.md
+      - Syncthing: services/syncthing.md
+      - Mailcow: services/mailcow.md
+      - Immich: services/immich.md
+      - Navidrome: services/navidrome.md
+      - Vikunja: services/vikunja.md
+      - Mealie: services/mealie.md
+      - Jellyfin: services/jellyfin.md
+      - FreshRSS: services/freshrss.md
+      - Filebrowser Quantum: services/quantum.md
+      - Forgejo: services/forgejo.md
+      - Minecraft: services/minecraft.md
+      - ZNC: services/znc.md
+  - Miscellaneous:
+      - Domains: misc/domains.md
+      - Scripts: misc/scripts.md
+      - Router: misc/router.md
+  - Failed Projects:
+      - DIY NAS: failed/diy_nas.md
